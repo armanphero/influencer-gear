@@ -32,7 +32,7 @@ div#offcanvasExample {
     align-items: center;
     gap: 11px;
     border-bottom: 3px solid lightblue;
-    padding-bottom: 3%;
+    padding: 8% 0px;
 }
 .user img {
     width: 18%;
@@ -361,6 +361,10 @@ footer p {
 
 @media (max-width:576px){
     .title {
-        font-size: 23px;
+        font-size: 20px;
+    }
+    footer p {
+        margin: 3% 0;
+        font-size: 13px;
     }
 }
